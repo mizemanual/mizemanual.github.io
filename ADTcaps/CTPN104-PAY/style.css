@@ -187,7 +187,7 @@ table {
     }
     .contentImg img {
         width: 60%;
-        height: fit-content;
+        height: auto;
         padding: 0 20px;
     }
 }
