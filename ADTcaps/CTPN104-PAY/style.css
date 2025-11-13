@@ -186,8 +186,7 @@ table {
         overflow: hidden;
     }
     .contentImg img {
-        width: 60%;
-        height: auto;
+        height: 250px;
         padding: 0 20px;
     }
 }
