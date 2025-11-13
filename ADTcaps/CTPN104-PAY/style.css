@@ -142,6 +142,7 @@ table {
         width: 100%;
         height: 100%;
         padding: 28px;
+        border-radius: 0px;
     }
     .contentHeader .logo img {
         height: 36px;
@@ -158,7 +159,7 @@ table {
     .contentImg {
         display: flex;
         align-items: end;
-        height: calc(100%);
+        height: calc(80%);
         overflow: hidden;
     }
     .contentImg img {
