@@ -131,7 +131,6 @@ table {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    white-space: nowrap;
     text-align: center;
 }
 .buttonBox a.disable {
@@ -184,6 +183,7 @@ table {
         font-weight: 600;
         height: 70px;
         gap: 8px;
+        word-break: keep-all;
     }
     .buttonBox a span {
         font-size: 14px;
