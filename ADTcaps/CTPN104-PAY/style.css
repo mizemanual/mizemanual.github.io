@@ -132,6 +132,7 @@ table {
     justify-content: center;
     gap: 10px;
     text-align: center;
+    padding: 5px 20px;
 }
 .buttonBox a.disable {
     opacity: 0.5;
