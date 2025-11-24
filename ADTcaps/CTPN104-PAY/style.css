@@ -123,6 +123,7 @@ table {
     background: linear-gradient(320deg, rgba(0, 69, 137, 1) 0%, rgba(0, 82, 164, 1) 100%);
     font-size: 24px;
     font-weight: 600;
+    line-height: 28px;
     color: #ffffff;
     text-decoration: none;
     display: flex;
@@ -131,6 +132,7 @@ table {
     justify-content: center;
     gap: 10px;
     white-space: nowrap;
+    text-align: center;
 }
 .buttonBox a.disable {
     opacity: 0.5;
