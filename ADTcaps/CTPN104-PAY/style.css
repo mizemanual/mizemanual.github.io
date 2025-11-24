@@ -181,12 +181,14 @@ table {
     .buttonBox a {
         font-size: 18px;
         font-weight: 600;
+        line-height: 24px;
         height: 70px;
         gap: 8px;
         word-break: keep-all;
     }
     .buttonBox a span {
         font-size: 14px;
+        line-height: 10px;
     }
 }
 @media screen and (max-width: 375px) {
