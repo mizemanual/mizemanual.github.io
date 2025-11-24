@@ -105,8 +105,13 @@ table {
     max-height: 440px;
     padding: 0 20px;
 }
+.footerBtnBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .buttonBox {
-    display: grid;
+    display: flex;
     gap: 20px;
 	grid-template-columns: 1fr 1fr;
 }
@@ -125,6 +130,7 @@ table {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    white-space: nowrap;
 }
 .buttonBox a.disable {
     opacity: 0.5;
@@ -164,6 +170,7 @@ table {
         overflow: hidden;
     }
     .contentImg img {
+        width: auto;
         height: 250px;
         padding: 0 20px;
     }
